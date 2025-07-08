@@ -1,4 +1,8 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    color: brown;
+}
+div{
+    text-transform: capitalize;
 }
