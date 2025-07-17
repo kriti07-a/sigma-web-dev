@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    background-color: aliceblue;
+}
+#div2{
+    background-color: rgb(134, 94, 94);
+    
+}
+div > p{
+    background-color: aqua;
+    color: gainsboro;
+}
+div p{
+    background-color: azure;
+    color: gold;
+}
+.red{
+    background-color: blueviolet;
+}
+/* pseudo selector  */
+a:link{
+    color: orange;
+
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: green;
+}
