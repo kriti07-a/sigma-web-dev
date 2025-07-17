@@ -1,0 +1,17 @@
+.red{
+    background-color: aqua;
+    color: blue;
+    
+}
+#fdiv{
+    background-color: aquamarine;
+}
+.black{
+    background-color: blueviolet;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+div{
+    background-repeat: inherit;
+    background-color: bisque;
+}
