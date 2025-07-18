@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    p.div1{
+        color: rgb(35, 105, 82);
+    }
+    #one{
+        background-color: rgb(3, 33, 33);
+        color: goldenrod;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 115;
+        font-style: italic;
+        text-align: center;
+        text-decoration: solid;
+        border-radius: 10%;
+    }
+    .div1{
+        color: red;
+    }
+
+
+</style>
+
+
+<body>
+    <h1>let's learn Specificity CSS</h1>
+    <div class="div1 red purple black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem
+        doloremque adipisci, nisi libero ea consequatur delectus dicta sed repellendus?
+    <p>Lorem ipsum dolor sit amet.</p></div>
+    <!-- <div id="one" style="background-color: blue;">i am kriti kumari i am student of Btech in computer science student at Quantum University</div> -->
+     <div id="one" >i am kriti kumari i am student of Btech in computer science student at Quantum University</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, provident!</p>
+</body>
+
+</html>
