@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position property</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height: 130px;
+            width: 80vw;
+            border: 2px solid black;
+            padding: 3px;
+            margin: 3px;
+            
+        }
+        .box1{
+            background-color: aqua;
+            position: absolute;
+            top: 1px;
+            left: 3px;
+
+        }
+        .box2{
+            background-color: green;
+            /* position: relative;
+            top: 30px;
+            left: 50px; */
+            
+
+        }
+        .box3{
+            background-color: purple;
+            /* position: relative;
+            z-index: 3; */
+        }
+        .box4{
+            background-color: rgb(194, 114, 16);
+        }
+        .parent{
+            padding: 30px;
+            margin: 30px;
+            border: 2px solid black;
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, excepturi.</div>
+    <div class=" box box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur dicta animi quis! Quisquam, deserunt.</div>
+    <div class="box box3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae mollitia aut ab!</div>
+    <div class="box box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laudantium maxime.</div>
+    </div>
+</body>
+</html>
