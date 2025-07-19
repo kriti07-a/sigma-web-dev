@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media queries</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 3px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+        .box1{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .box {
+            background-color: aqua;
+
+            @media only screen and (max-width: 300px) {
+                background-color: blueviolet;
+            }
+
+            padding: 30px;
+        }
+        .box2 nav ul li{
+            color: blue;
+            list-style: none;
+            display: inline-flex;
+
+
+
+        }
+        .box4{
+            border: 2px solid black;
+
+        }
+        .box5{
+            border: 2px solid black;
+        }
+        .box3{
+            border: 2px solid black;
+            width: 20vw;
+            height: 20vh;
+            overflow: auto;
+            /* overflow-x: auto hidden; */
+            /* overflow-y: auto hidden; */
+            box-shadow: 2px 5px 3px rgb(216, 76, 100);
+            text-shadow: 2px 2px 2px green;
+            text-indent: 3px;
+        }
+        /* div:first-child p{
+            color: red;
+        } */
+         div > p{
+            color: red;
+         }
+    </style>
+</head>
+
+<body>
+    <div class="box">lorem 10</div>
+    <div class="box2">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="box3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus eligendi vero, assumenda odio perferendis totam cupiditate quasi dolorum recusandae debitis doloremque iusto neque facilis quas ex. Error dignissimos voluptate sit ad aut et asperiores eius aperiam iusto distinctio quasi at voluptatem quas tempora, sed sunt dolores dolorum! Nam, labore doloremque! Delectus harum, eos officiis facilis magnam quod ab iusto non tempore voluptates ratione laborum quaerat alias fugiat totam ipsam, reiciendis repellat autem. Similique pariatur, quidem laudantium a saepe temporibus, nemo cum doloribus, sed voluptatem aperiam! Fugit mollitia ipsum laborum maxime. Eligendi libero facere quisquam ducimus nobis culpa sapiente ipsam quae.</div>
+    <div class="parent">
+        <div class="box box1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, porro!
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloribus maxime ab placeat neque dicta blanditiis eius? Eum, corrupti? Iste recusandae, illum delectus beatae repellat nemo doloribus enim facere distinctio?
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora totam vero dignissimos animi, aspernatur ducimus corrupti doloremque reiciendis voluptates recusandae cumque.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, esse.</p>
+                </h2>
+            </p>
+        </div>
+
+        <div class="box box4">Lorem ipsum dolor sit amet.
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, recusandae.</p>
+        </div>
+        <div class="box box5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ullam quo saepe hic incidunt dolorum?</div>
+    </div>
+</body>
+
+</html>
