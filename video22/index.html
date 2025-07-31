@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float and clear</title>
+    <style>
+        img{
+            float: left;
+            border: 2px solid black;
+        }
+        .cards{
+            border: 2px solid purple;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="image1.jpg" alt="" width="200px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, alias velit eius recusandae a voluptatem officia et enim odio fuga, nulla repellendus sed soluta labore illum. Qui, eligendi placeat rerum unde commodi doloremque dignissimos incidunt inventore quaerat cumque, totam consectetur sapiente corporis nihil iste tenetur.</p>
+        <div class="card">card 1</div>
+        <div class="card">card 2</div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>
