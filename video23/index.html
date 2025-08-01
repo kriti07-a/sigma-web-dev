@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS slector in deep</title>
+    <style>
+    /* .box:first-child{
+        background-color: blueviolet;
+        
+    }
+    .box:first-line{
+        background-color: blue;
+
+    } */
+     .boxes *{
+        border: 2px solid black;
+     }
+     .box:nth-child(odd){
+        background-color: aqua;
+
+     }
+
+     .boxes::after{
+        content: "i am good";
+     }
+     .boxes::before{
+        content: "i am good";
+     }
+     .boxes::selection{
+        background-color: blue;
+     }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="boxes">
+    <div class="box">hey i am first box Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aperiam! Consequatur nostrum ea, illo, saepe dolore numquam temporibus esse cum enim laboriosam, est sunt atque ullam expedita voluptatem quas. Quibusdam, magni dolorem. </div>
+    <div class="box">hey i am second box</div>
+    <div class="box">hey i am third box</div>
+    </div>
+</body>
+</html>
